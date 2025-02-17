@@ -1,5 +1,7 @@
 #include <stdio.h>
 /**
+ * descrition
+ *
  * main:print string using printf function
  *
  * return:always return 0 on succesful execution
