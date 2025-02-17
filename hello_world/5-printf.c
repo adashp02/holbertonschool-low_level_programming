@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * descrition
+ * main - print a string usig printf
  *
- * main:print string using printf function
- *
- * return:always return 0 on succesful execution
+ * return - 0 is a sign of success
  */
 int main(void)
 {
