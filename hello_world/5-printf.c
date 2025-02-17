@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print string using printf function
+ * main:print string using printf function
  *
- * return:always return 0 on execution
+ * return:always return 0 on succesful execution
  */
 int main(void)
 {
