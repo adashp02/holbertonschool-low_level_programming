@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* prints a sentence newline included */
+/**
+ * main - prints string using puts function newline included
+ *
+ * Return: Always return 0 on successful execution.
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
