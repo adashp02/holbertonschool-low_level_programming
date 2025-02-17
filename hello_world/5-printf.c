@@ -2,7 +2,7 @@
 /**
  * main - print a string usig printf
  *
- * return - 0 is a sign of success
+ * Return: 0 is a sign of success
  */
 int main(void)
 {
