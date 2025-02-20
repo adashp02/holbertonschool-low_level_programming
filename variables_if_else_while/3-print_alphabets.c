@@ -17,12 +17,15 @@ int main(void)
 
 	/* If the value is less then or equal z - print it */
 
-	while (low_case <= 'z' && upper_case <= 'Z')
+	while (low_case <= 'z')
 
 	{
 		putchar(low_case);
 		low_case++;
+	}
+	while (upper_case <= 'Z')
 
+	{
 		putchar(upper_case);
 		upper_case++;
 
