@@ -11,7 +11,7 @@
 int main(void)
 {
 	int file_descriptor = STDOUT_FILENO; 
-    	const char* message = "_putchar"; 
+    	const char* message = "_putchar\n"; 
     	size_t message_length = strlen(message); 
     	write(file_descriptor, message, message_length); 
  
