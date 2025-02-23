@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer prints time in a 24 hour cycle
+ * jack_bauer - prints time
+ * in a 24 hour cycle
  * minute by minute from 00:00 to 23:59
  */
 
