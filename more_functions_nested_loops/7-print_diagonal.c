@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints / diagonally depending on a number supplied
- *
+ * print_diagonal - prints '\' diagonally depending on a number supplied
+ * @n: number of times the '\' should be printed
  * Return: n
  */
 
