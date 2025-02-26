@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
  * main - prints numbers 1 -100
  * for each mulltiple of 3 prints "Fizz"
  * for multiple of 5 - "Buzz"
