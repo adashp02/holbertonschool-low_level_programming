@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * fizz_buzz - prints numbers 1 -100
+ * main - prints numbers 1 -100
  * for each mulltiple of 3 prints "Fizz"
  * for multiple of 5 - "Buzz"
  * for both - "FizzBuzz"
