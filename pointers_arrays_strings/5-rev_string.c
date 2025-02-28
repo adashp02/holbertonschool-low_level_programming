@@ -23,7 +23,8 @@ void rev_string(char *s)
 
 	}
 
-	len = count - 1;
+	count--;
+	len = count;
 
 
 	while (count > (len / 2))
