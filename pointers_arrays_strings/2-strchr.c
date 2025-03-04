@@ -14,9 +14,9 @@
 char *_strchr(char *s, char c)
 
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i != '\0'; i++)
+	while (i != '\0')
 
 	{
 		if (s[i] == c)
@@ -27,9 +27,8 @@ char *_strchr(char *s, char c)
 
 		}
 
-		if (c == '\0')
+		i++;
 
-			return (s);
 
 	}
 	return (0);
