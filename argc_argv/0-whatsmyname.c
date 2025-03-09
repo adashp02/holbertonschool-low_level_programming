@@ -5,7 +5,6 @@
  * using argc and argv
  *@argc: number of arguments with atribue unused
  *@argv: array of arguments
-
  * Return: 0 success
  */
 
