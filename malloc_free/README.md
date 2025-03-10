@@ -1,0 +1,1 @@
+Malloc dynamically allocates memory.
