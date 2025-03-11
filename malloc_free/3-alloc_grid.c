@@ -37,7 +37,7 @@ int **alloc_grid(int width, int height)
 		array[i] = (int *) malloc(sizeof(int) * width);
 		/* allocating memory to pointer for each row of this array */
 
-			if (array == NULL)
+			if (array[i] == NULL)
 			/* if any malloc fails in this - free memory as you progress */
 			{
 
