@@ -40,16 +40,17 @@ int **alloc_grid(int width, int height)
 			if (array == NULL)
 			/* if any malloc fails in this - free memory as you progress */
 			{
-				free(array);
 
-				for (j = 0; j <= i; j++)
+				while (i >= 0)
 
 				{
-					free(array[j]);
+					free(array[i]);
+					i--;
 
-					return (NULL);
 				}
+				free(array);
 
+				return (NULL);
 			}
 
 	}
