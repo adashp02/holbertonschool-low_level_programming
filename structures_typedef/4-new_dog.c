@@ -24,6 +24,7 @@ int _strlen(char *s)
 
 }
 
+
 /**
  * _strncpy - copies a string
  * @dest: destination string
@@ -33,25 +34,21 @@ int _strlen(char *s)
  * Return: pointer to the resulting string
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src)
 
 {
 	int i = 0;
 
-	while (src[i] != '\0' && i < n)
+	while (src[i] != '\0')
 
 	{
 		dest[i] = src[i];
 		i++;
 	}
 
-	while (i < n)
 
-	{
-		dest[i] = '\0';
-		i++;
+	dest[i] = '\0';
 
-	}
 
 	return (dest);
 
@@ -98,8 +95,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	doggy->name = _strncpy(doggy->name, name, len1);
-	doggy->owner = _strncpy(doggy->owner, owner, len2);
+	doggy->name = _strncpy(doggy->name, name);
+	doggy->owner = _strncpy(doggy->owner, owner);
 	doggy->age = age;
 
 	return (doggy);
