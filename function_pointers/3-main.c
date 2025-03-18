@@ -21,18 +21,18 @@ int main(int argc, char *argv[])
 
 	int (*getop)(int, int);
 
-	/* there are 4 arguments including the name of prog calc */
-	num1 = atoi(argv[1]);
-	op = argv[2];
-	num2 = atoi(argv[3]);
-	getop = get_op_func(op);
-
 	/* so if any other number of args - print Error and code 98 */
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+
+	/* there are 4 arguments including the name of prog calc */
+	num1 = atoi(argv[1]);
+	op = argv[2];
+	num2 = atoi(argv[3]);
+	getop = get_op_func(op);
 
 	/* if the operator passed by get_op_func is null */
 	if (getop == NULL)
