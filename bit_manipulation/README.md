@@ -1,0 +1,2 @@
+scripts exploring bit manipulation
+
